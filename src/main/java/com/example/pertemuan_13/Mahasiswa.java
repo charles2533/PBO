@@ -8,13 +8,20 @@ public class Mahasiswa {
         this.nrp = nrp;
         this.nama = nama;
     }
-
     public String getNrp() {
         return nrp;
     }
 
     public String getNama() {
         return nama;
+    }
+
+    public void setNrp(String nrp) {
+        this.nrp = nrp;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 }
 

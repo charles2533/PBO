@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pertemuan_13.SignUpController">
+    <children>
+        <Label layoutX="70.0" layoutY="56.0" prefHeight="34.0" prefWidth="114.0" text="NRP" />
+        <Label layoutX="70.0" layoutY="104.0" prefHeight="34.0" prefWidth="114.0" text="Nama" />
+        <TextField fx:id="nrp" layoutX="258.0" layoutY="56.0" prefHeight="34.0" prefWidth="255.0" />
+        <PasswordField fx:id="nama" layoutX="258.0" layoutY="104.0" prefHeight="34.0" prefWidth="255.0" />
+        <Button fx:id="signUp" layoutX="436.0" layoutY="160.0" mnemonicParsing="false" onAction="#onSignUpButtonClick" prefHeight="25.0" prefWidth="74.0" text="SignUp" />
+    </children>
+</AnchorPane>

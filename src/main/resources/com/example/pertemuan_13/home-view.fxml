@@ -5,12 +5,19 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pertemuan_13.HomeController">
     <children>
-        <Button fx:id="logOut" layoutX="251.0" layoutY="317.0" mnemonicParsing="false" onAction="#onLogoutButtonClick" prefHeight="38.0" prefWidth="98.0" text="Logout" />
+        <Button fx:id="logOut" layoutX="468.0" layoutY="358.0" mnemonicParsing="false" onAction="#onLogoutButtonClick" prefHeight="31.0" prefWidth="78.0" text="Logout" />
         <TableView fx:id="tableMahasiswa" layoutX="50.0" layoutY="46.0" prefHeight="264.0" prefWidth="500.0">
             <columns>
                 <TableColumn fx:id="colNrp" prefWidth="150.0" text="NRP" />
                 <TableColumn fx:id="colNama" prefWidth="350.0" text="Nama" />
             </columns>
         </TableView>
+      <Button fx:id="edit" layoutX="271.0" layoutY="317.0" mnemonicParsing="false" onAction="#onUpdateButtonClick" prefHeight="31.0" prefWidth="78.0" text="Edit" />
+      <Button fx:id="delete" layoutX="370.0" layoutY="317.0" mnemonicParsing="false" onAction="#onDeleteButtonClick" prefHeight="31.0" prefWidth="78.0" text="Delete" />
+      <TextField fx:id="tfNrp" layoutX="71.0" layoutY="324.0" />
+      <TextField fx:id="tfNama" layoutX="71.0" layoutY="355.0" />
+      <Label layoutX="28.0" layoutY="328.0" text="NRP" />
+      <Label layoutX="26.0" layoutY="359.0" text="Nama" />
+      <Button fx:id="add" layoutX="468.0" layoutY="317.0" mnemonicParsing="false" onAction="#onAddButtonClick" prefHeight="31.0" prefWidth="78.0" text="Add" />
     </children>
 </AnchorPane>
