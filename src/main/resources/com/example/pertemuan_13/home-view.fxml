@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pertemuan_13.HomeController">
+    <children>
+        <Button fx:id="logOut" layoutX="251.0" layoutY="317.0" mnemonicParsing="false" onAction="#onLogoutButtonClick" prefHeight="38.0" prefWidth="98.0" text="Logout" />
+        <TableView fx:id="tableMahasiswa" layoutX="50.0" layoutY="46.0" prefHeight="264.0" prefWidth="500.0">
+            <columns>
+                <TableColumn fx:id="colNrp" prefWidth="150.0" text="NRP" />
+                <TableColumn fx:id="colNama" prefWidth="350.0" text="Nama" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
