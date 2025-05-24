@@ -8,7 +8,6 @@ public class Mahasiswa {
         this.nrp = nrp;
         this.nama = nama;
     }
-
     public String getNrp() {
         return nrp;
     }
